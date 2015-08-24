@@ -410,6 +410,12 @@ const (
 	CKM_EC_KEY_PAIR_GEN                  = 0x00001040
 	CKM_ECDSA                            = 0x00001041
 	CKM_ECDSA_SHA1                       = 0x00001042
+	// NOT STANDARD
+	CKM_ECDSA_SHA224                     = 0x00001043
+	CKM_ECDSA_SHA256                     = 0x00001044
+	CKM_ECDSA_SHA384                     = 0x00001045
+	CKM_ECDSA_SHA512                     = 0x00001046
+	// NOT STANDARD
 	CKM_ECDH1_DERIVE                     = 0x00001050
 	CKM_ECDH1_COFACTOR_DERIVE            = 0x00001051
 	CKM_ECMQV_DERIVE                     = 0x00001052
@@ -440,6 +446,7 @@ const (
 	CKM_DSA_PARAMETER_GEN                = 0x00002000
 	CKM_DH_PKCS_PARAMETER_GEN            = 0x00002001
 	CKM_X9_42_DH_PARAMETER_GEN           = 0x00002002
+	
 	CKM_VENDOR_DEFINED                   = 0x80000000
 	CKF_HW                               = 0x00000001
 	CKF_ENCRYPT                          = 0x00000100
